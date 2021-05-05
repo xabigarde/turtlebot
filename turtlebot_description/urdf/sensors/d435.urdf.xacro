@@ -7,8 +7,8 @@
 
   
   <!-- Mount and camera parameters -->
-  <xacro:property name="pole_px" value="-0.103" />
-  <xacro:property name="pole_py" value="-0.098"/>
+  <xacro:property name="pole_px" value="-0.055" />
+  <xacro:property name="pole_py" value="-0.12"/>
   <xacro:property name="pole_pz" value="0.269" />
 
   <xacro:property name="d435_bracket_end_offset_py" value="0.02" />
@@ -20,9 +20,9 @@
   <xacro:property name="d435_bracket_length"    value="0.176" /> 
   <xacro:property name="d435_bracket_width"     value="0.0285" />
 
-  <xacro:property name="d435_cam_offset_px" value="-0.017" />
-  <xacro:property name="d435_cam_offset_py" value="0.024" />
-  <xacro:property name="d435_cam_offset_pz" value="0.005" />
+  <xacro:property name="d435_cam_offset_px" value="0.0" />
+  <xacro:property name="d435_cam_offset_py" value="0.1" />
+  <xacro:property name="d435_cam_offset_pz" value="0.015" />
 
   <xacro:property name="d435_cam_rgb_px" value="0.005"/>
   <xacro:property name="d435_cam_rgb_py" value="0.018"/>
