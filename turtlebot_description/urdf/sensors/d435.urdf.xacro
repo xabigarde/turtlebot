@@ -22,7 +22,7 @@
  
     <!-- camera body -->
     <joint name="camera_joint" type="fixed">
-      <origin xyz="-0.105 0 0.197" rpy="0 0 ${M_PI}"/>
+      <origin xyz="0.155 0 0.16" rpy="0 0 0"/>
       <parent link="${parent}"/>
       <child link="camera_link" />
     </joint>
