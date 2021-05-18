@@ -15,5 +15,5 @@
   <xacro:kobuki/>
   <xacro:stack_hexagons parent="base_link"/>
   <xacro:sensor_d435    parent="base_link"/>
-  <xacro:ydlidar_x4 name="ydlidar" base="base_link" pose_xyz="0.252 0 0.066" pose_rpy="0 0 ${-M_PI/2-6/180*M_PI}" />
+  <xacro:ydlidar_x4 name="ydlidar" base="base_link" pose_xyz="-0.0095 0.0095 0.225" pose_rpy="0 0 ${-6/180*M_PI}" />
 </robot>
